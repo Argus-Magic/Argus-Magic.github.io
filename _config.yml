@@ -66,17 +66,4 @@ intro: |
   <br/>
   Finally I have also a range of side projects and hobbies that I tend to such as building open source tools (mostly for my personal use), reading on any kind of literature that crosses my path from economic theory to science fiction, playing videogames, and spending time with family and friends.
 
-#An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
-   <strong> Languages</strong>: Spanish (native), English (fluent/C2), German (B1).
-   <br/>
-   <strong> Hobbies</strong>: Music, Reading, Videogames, Boardgames
-   <br/>
-   <strong> Interests</strong>: Physics, Electronics, Programming
-   <br/>
-   <strong> Projects</strong>:
-   <ul>
-     <li>Built a basic 3D wireframe visualizer in C using the Allegro library</li>
-     <li>Built a real-time signal analyzer and processor in Python based on Principles of the Fourier and Wavelet Transforms using the PyAudio and PyGame libraries</li>
-     <li></li>
-   </ul>
+
