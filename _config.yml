@@ -3,11 +3,13 @@ title: Leonides Jonguitud
 twitter_username: JonguiLeo
 name: Leonides Jonguitud
 
-# Build settings
+# Build settings - THESE ARE CRITICAL, DO NOT REMOVE
 markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
-#User specific content
-#Links that will appear in the navbar
+# User specific content
+# Links that will appear in the navbar
 primarylinks:
  - title: GitHub
    url: https://github.com/Argus-Magic
@@ -16,7 +18,7 @@ primarylinks:
  - title: LinkedIn
    url: https://www.linkedin.com/in/leonides-jonguitud-rodriguez-0a91a7184/
 
-#Any buzzword skills you want to include
+# Any buzzword skills you want to include
 skills:
  - C/C++
  - Python
@@ -31,10 +33,10 @@ skills:
  - Linux familiarity
  - Gen. AI knowledge
 
-#Blogfeed is optional - including this will add JS to call the feed and populate blog list
-#blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+# Blogfeed is optional - COMMENTED OUT since you don't have a blog
+# blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
-#Work experience is required
+# Work experience is required
 roles:
  - title: Freelance personal tutor
    start: 2022
@@ -42,28 +44,41 @@ roles:
    employer: Self-employed
    description: Offered private tutoring services for elementary, middle, high school and University level students across all fields of knowledge including but not limited to Mathematics, Physics, Chemistry, Biology, Computer Science, Engineering and Business.
 
-#Education is required
+# Education is required
 education:
  - level: High School Diploma
    date: 2022
    subject: High School Mathematics and Science
    school: Harkness Institute, San Luis Potosí, México
 
-#List of interesting Github repo/projects to include - optional
+# List of interesting Github repo/projects to include - optional
 github:
  - Argus-Magic/Plantilla-Reporte-IICO
  - Argus-Magic/Signal_Analysis
  - Argus-Magic/yt-dlp-helper
 
-#Stackoverflow flair is optional
+# Stackoverflow flair is optional
 stackoverflow:
    profileurl: https://stackoverflow.com/users/23371241/argus-magic
 
+# Intro section
 intro: |
-  I am a Physics Engineering student at the Autonomous University of San Luis Potosí (UASLP). My experience there amounts to learning, designing, and building projects around programming, web development, optics, electronics, and  chemistry. Generally my outputs combine a mix of code, hands-on experiments, and mathematical analysis of physical phenomena.
+  I am a Physics Engineering student at the Autonomous University of San Luis Potosí (UASLP). My experience there amounts to learning, designing, and building projects around programming, web development, optics, electronics, and chemistry. Generally my outputs combine a mix of code, hands-on experiments, and mathematical analysis of physical phenomena.
   <br/>
   Other than science I also enjoy making, listening, and performing music. I have been part of many musical projects throughout the years, mixing and producing music. As of now my band's music is primarily based on my own compositions and arrangements, and is only available to listen on YouTube <a target="_blank" href="https://www.youtube.com/@%C6%8EXHME">here</a>.
   <br/>
   Finally I have also a range of side projects and hobbies that I tend to such as building open source tools (mostly for my personal use), reading on any kind of literature that crosses my path from economic theory to science fiction, playing videogames, and spending time with family and friends.
 
-
+# Additional info section
+additionalinfo: |
+   <strong>Languages</strong>: Spanish (native), English (fluent/C2), German (B1).
+   <br/>
+   <strong>Hobbies</strong>: Music, Reading, Videogames, Boardgames
+   <br/>
+   <strong>Interests</strong>: Physics, Electronics, Programming
+   <br/>
+   <strong>Projects</strong>:
+   <ul>
+     <li>Built a basic 3D wireframe visualizer in C using the Allegro library</li>
+     <li>Built a real-time signal analyzer and processor in Python based on Principles of the Fourier and Wavelet Transforms using the PyAudio and PyGame libraries</li>
+   </ul>
