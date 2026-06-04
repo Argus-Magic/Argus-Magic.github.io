@@ -60,6 +60,7 @@ github:
 # Stackoverflow flair is optional
 stackoverflow:
    profileurl: https://stackoverflow.com/users/23371241/argus-magic
+   flairimageurl: https://lh3.googleusercontent.com/a/ACg8ocKQJv8GNjS6Ncri_-Wxtzv1wcvIHGRrK_ru6ZsuEitwhQ=k-s256
 
 # Intro section
 intro: |
