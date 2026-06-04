@@ -82,4 +82,9 @@ additionalinfo: |
    <ul>
      <li>Built a basic 3D wireframe visualizer in C using the Allegro library</li>
      <li>Built a real-time signal analyzer and processor in Python based on Principles of the Fourier and Wavelet Transforms using the PyAudio and PyGame libraries</li>
+     <li>Built a functioning graphic user interfase for the YT-DLP helper using Tkinter and BASH</li>
+     <li>Used VHDL and the Quartus II software to build arithmetic logic units for a FPGA board</li>
+     <li>Built and programmed a wireless bluetooth remote control car supported by the UART protocol in VHDL</li>
+     <li>Designed and built various guitar effects stompboxes</li>
+     <li>Composed, recorded, and mixed a variety of demo tapes</li>
    </ul>
