@@ -9,15 +9,21 @@ highlighter: rouge
 permalink: /:title/
 
 # User specific content
-
 # Personal info for sidebar infobox
 infobox:
   location: "San Luis Potosí, México"
+  birthday: "March 15, 1998"  # Change to yours
   education: "UASLP (2022 - Present)"
   languages: "🇪🇸 🇺🇸 🇩🇪"
-  email: "your-email@example.com"  # Replace with your real email
-  band_name: "ÆXHME"
+  email: "your-email@example.com"
+  band_name: "ƎXHME"
   band_url: "https://www.youtube.com/@%C6%8EXHME"
+  # Social links beyond the navbar
+  social:
+    twitter: "JonguiLeo"  # Your Twitter handle
+    instagram: "your_instagram"  # Add if you have
+    youtube: "https://www.youtube.com/@%C6%8EXHME"
+    spotify: "https://open.spotify.com/artist/your_id"  # Add if you have
 
 # Links that will appear in the navbar
 primarylinks:
