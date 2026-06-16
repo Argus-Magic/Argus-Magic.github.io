@@ -1,13 +1,8 @@
-<div id="skillsBubble" class="rounded_panel txt_lightgrey">
-	<div class="top-rounded-panel grey-bg">
-		<h1 id="user-skills">Areas of experience &amp; interest</h1>
-	</div>
-	<div class="content-rounded-panel">
-
-		<div id="skills">
-			{% for skill in site.skills %}
-				<span class="label label-info label-padded"> {{skill}} </span> &nbsp;
-			{% endfor %}
-		</div>
+<div style="background: #161b22; border-radius: 12px; padding: 5px 20px 20px 20px; margin-bottom: 30px; border: 1px solid #21262d;">
+	<h2 style="color: #7ee787; font-size: 22px; border-left: 4px solid #7ee787; padding-left: 15px;">⚡ Areas of experience & interest</h2>
+	<div id="skills">
+		{% for skill in site.skills %}
+			<span class="skill-badge">{{ skill }}</span>
+		{% endfor %}
 	</div>
 </div>

@@ -7,14 +7,36 @@ layout: default
 		{% include section_intro.html %}
 		{% include section_skills.html %}
 		{% include section_workexperience.html %}
+		
+		<!-- PROJECTS SECTION - Your best stuff, now featured prominently -->
+		<section>
+			<h2>🚀 Projects & Builds</h2>
+			<ul class="projects-list">
+				<li><strong>3D Wireframe Visualizer</strong> – Built in C using Allegro library</li>
+				<li><strong>Real-time Signal Analyzer</strong> – Python with Fourier/Wavelet transforms, PyAudio & PyGame</li>
+				<li><strong>YT-DLP GUI Helper</strong> – Tkinter + BASH interface</li>
+				<li><strong>FPGA ALU</strong> – VHDL on Quartus II for arithmetic logic operations</li>
+				<li><strong>Bluetooth RC Car</strong> – VHDL with UART protocol</li>
+				<li><strong>Guitar Effects Pedals</strong> – Custom stompbox design & assembly</li>
+				<li><strong>Music Demos</strong> – Composition, recording, and mixing</li>
+			</ul>
+		</section>
+		
 		{% include section_coursera.html %}
 		{% include section_github.html %}
 		{% include section_mobileapps.html %}
-		{% include section_additionalinfo.html %}
-		{% include section_speakerdeck.html %}
+		
+		<!-- Additional info now styled as a compact section -->
+		<section>
+			<h2>📚 Languages & Interests</h2>
+			<p><strong>Languages:</strong> Spanish (native), English (fluent/C2), German (B1)</p>
+			<p><strong>Hobbies:</strong> Music, Reading, Videogames, Boardgames</p>
+			<p><strong>Interests:</strong> Physics, Electronics, Programming</p>
+		</section>
 	</div>
+	
 	<div class="col-md-3">
+		<!-- Only showing the flair image from StackOverflow, removed empty blog section -->
 		{% include section_stackoverflow.html %}
-		{% include section_blogs.html %}
 	</div>
 </div>
