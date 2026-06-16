@@ -12,18 +12,20 @@ permalink: /:title/
 # Personal info for sidebar infobox
 infobox:
   location: "San Luis Potosí, México"
-  birthday: "March 15, 1998"  # Change to yours
+  birthday: "June 11, 2004"  # Change to yours
   education: "UASLP (2022 - Present)"
   languages: "🇲🇽 🇺🇸 🇩🇪"
   email: "leo.jongui12@gmail.com"
   band_name: "ƎXHME"
   band_url: "https://www.youtube.com/@%C6%8EXHME"
+  summary: "Physics Engineering student at UASLP. Builder of things - from signal analyzers to guitar pedals. Musician, tinkerer, and perpetual learner."
   # Social links beyond the navbar
   social:
     twitter: "@JonguiLeo"  # Your Twitter handle
     instagram: "@leo_jongui"  # Add if you have
     youtube: "https://www.youtube.com/@%C6%8EXHME"
     spotify: "https://open.spotify.com/user/leonides74?si=a50d007113d54415"  # Add if you have
+  
 
 # Links that will appear in the navbar
 primarylinks:
