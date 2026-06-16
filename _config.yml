@@ -9,6 +9,15 @@ highlighter: rouge
 permalink: /:title/
 
 # User specific content
+
+# Personal info for sidebar
+personal_info:
+  location: "San Luis Potosí, México"
+  education: "UASLP (2022 - Present)"
+  languages: "🇪🇸 🇺🇸 🇩🇪"
+  email: "your-email@example.com"
+
+
 # Links that will appear in the navbar
 primarylinks:
  - title: GitHub

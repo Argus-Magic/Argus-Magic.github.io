@@ -1,0 +1,62 @@
+<section style="background: #161b22; border-radius: 12px; padding: 0; border: 1px solid #21262d; overflow: hidden;">
+	<!-- Header with subtle accent -->
+	<div style="background: #1a2332; padding: 15px 20px; border-bottom: 1px solid #21262d;">
+		<h2 style="margin: 0; color: #7ee787; font-size: 18px; border-left: none; padding-left: 0;">📋 Personal Info</h2>
+	</div>
+	
+	<!-- Content area -->
+	<div style="padding: 20px;">
+		<!-- Quick bio line -->
+		<p style="color: #e6edf3; font-size: 14px; line-height: 1.5; margin-bottom: 20px; border-bottom: 1px solid #21262d; padding-bottom: 15px;">
+			{{ site.intro | strip_html | truncatewords: 20 }}
+		</p>
+		
+		<!-- Info rows - pulled from _config.yml -->
+		<div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+			<span style="min-width: 70px; color: #8b949e; font-size: 13px;">📍 Location</span>
+			<span style="color: #e6edf3; font-size: 14px;">{{ site.infobox.location }}</span>
+		</div>
+		
+		<div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+			<span style="min-width: 70px; color: #8b949e; font-size: 13px;">🎓 Education</span>
+			<span style="color: #e6edf3; font-size: 14px;">{{ site.infobox.education }}</span>
+		</div>
+		
+		<div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+			<span style="min-width: 70px; color: #8b949e; font-size: 13px;">🌐 Languages</span>
+			<span style="color: #e6edf3; font-size: 14px;">{{ site.infobox.languages }}</span>
+		</div>
+		
+		<div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+			<span style="min-width: 70px; color: #8b949e; font-size: 13px;">🎵 Band</span>
+			<span style="color: #e6edf3; font-size: 14px;">
+				<a href="{{ site.infobox.band_url }}" target="_blank" rel="noopener" style="color: #7ee787;">{{ site.infobox.band_name }}</a>
+			</span>
+		</div>
+		
+		<!-- Divider -->
+		<div style="margin: 15px 0; border-top: 1px solid #21262d;"></div>
+		
+		<!-- Contact buttons -->
+		<div style="display: flex; flex-direction: column; gap: 8px;">
+			<a href="https://github.com/{{ site.github_username | default: 'Argus-Magic' }}" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 8px; background: #21262d; padding: 8px 12px; border-radius: 6px; text-decoration: none; color: #e6edf3; font-size: 14px; transition: all 0.2s;">
+				<span>🐙</span> GitHub
+			</a>
+			<a href="{{ site.primarylinks[2].url }}" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 8px; background: #21262d; padding: 8px 12px; border-radius: 6px; text-decoration: none; color: #e6edf3; font-size: 14px; transition: all 0.2s;">
+				<span>🔗</span> LinkedIn
+			</a>
+			<a href="mailto:{{ site.infobox.email }}" style="display: flex; align-items: center; gap: 8px; background: #21262d; padding: 8px 12px; border-radius: 6px; text-decoration: none; color: #e6edf3; font-size: 14px; transition: all 0.2s;">
+				<span>📧</span> Email me
+			</a>
+		</div>
+	</div>
+</section>
+
+<style>
+	/* Hover effect for contact buttons */
+	[style*="background: #21262d"]:hover {
+		background: #2d3748 !important;
+		border-left: 2px solid #7ee787;
+		padding-left: 10px !important;
+	}
+</style>
